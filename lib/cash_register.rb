@@ -1,14 +1,14 @@
 
 class CashRegister
-  attr_accessor
+  attr_accessor :discount
 
   def initialize(discount = nil)
     @total = 0
     @discount = discount
   end
 
-  def discount
-
-  end
+  # def discount
+  #
+  # end
 
 end
