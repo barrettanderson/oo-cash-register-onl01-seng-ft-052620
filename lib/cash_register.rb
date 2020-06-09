@@ -18,7 +18,7 @@ class CashRegister
     discount = @discount.to_f
     binding.pry
     final = total * discount/100
-    final
+    total = total - final
   end
 
 end
