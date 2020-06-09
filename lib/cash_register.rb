@@ -19,6 +19,7 @@ class CashRegister
     # binding.pry
     final = total * discount/100
     total = total - final
+    total
   end
 
 end
